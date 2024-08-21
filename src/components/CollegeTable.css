@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* .container {
+    height: 70px;
+    border: 1px solid red;
+} */
+
+.search-bar {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  font-size: 16px;
+}
+
+.college-table {
+    /* height: 40px;  */
+    width: 100%;
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds max height */
+    border: 1px solid #ddd; /* Optional: Add a border around the container */
+    margin: 20px auto;  
+}
+
+.college-table th,
+.college-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  /* border-collapse: collapse; */
+}
+
+.college-table th {
+  background-color: #00ced1; /* Set the background color to aqua */
+  color: white; /* Set the text color to white */
+  cursor: pointer;
+}
+
+.featured {
+  color: red;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.college-name {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  color: #00ced1; /* Set the color to aqua */
+}
+
+.college-table td:nth-child(3) {
+  color: #29c929; /* Set the text color to #29c929 */
+  /* font-weight: bold; */
+}
+
+/* Targeting the Placement column (4th column) */
+.college-table td:nth-child(4) {
+  color: #29c929; /* Set the text color to #29c929 */
+  /* font-weight: bold; */
+}
+
+.ranking-position {
+  font-weight: bold;
+  font-size: 16px; /* Adjust as needed */
+}
+
+/* Style for ranking total */
+.ranking-total {
+  color: orange;
+  font-weight: bold;
+}
+
+.bottom {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: rebeccapurple;
+  font-size: small;
+}
+
+.first {
+  color: orange;
+}
+.second {
+  color: #29c929;
+}
+.third {
+  color: black;
+}
+
+.fee-bottom {
+  /* border: 1px solid red; */
+  font-size: 12px;
+  margin-top: 5px;
+  /* padding: 8px; */
+}
+
+.fee-first {
+  /* border: 1px solid red; */
+  color: black;
+  padding: 4px;
+}
+.fee-second {
+  /* border: 1px solid red; */
+  color: black;
+  padding: 4px;
+}
+.fee-third {
+  /* border: 1px solid red; */
+  color: orange;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.package {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.high-package {
+  color: #29c929;
+  font-size: medium;
+}
+
+.review {
+    font-size: 14px;
+}
+
+.review-second {
+  border: 1px solid orange;
+  border-radius: 50px;
+  width: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  background-color: lightgoldenrodyellow;
+  color: palevioletred;
+  font-weight: bold;
+  margin-top: 5px;
+  /* flex-direction: row; */
+}
+
+.rank-first {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 5px; */
+}
+
+.rank-image {
+    /* border: 1px solid orange; */
+    height: 85px;
+    width: 70px;
+}
